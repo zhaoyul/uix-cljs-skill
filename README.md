@@ -14,7 +14,7 @@ A skill for writing, reviewing, migrating, and testing [UIx](https://github.com/
 ### Via npx skills (recommended)
 
 ```bash
-npx skills@latest add zhaoyul/uix-clojurescript
+npx skills@latest add zhaoyul/uix-cljs-skill
 ```
 
 This installs the skill automatically for Pi, Claude Code, Codex, Cursor, Gemini CLI, and other supported agents.
@@ -22,13 +22,13 @@ This installs the skill automatically for Pi, Claude Code, Codex, Cursor, Gemini
 ### Via git clone
 
 ```bash
-git clone https://github.com/zhaoyul/uix-clojurescript.git ~/.pi/agent/skills/uix-clojurescript
+git clone https://github.com/zhaoyul/uix-cljs-skill.git ~/.pi/agent/skills/uix-clojurescript
 ```
 
 Or into a project directory:
 
 ```bash
-git clone https://github.com/zhaoyul/uix-clojurescript.git .pi/skills/uix-clojurescript
+git clone https://github.com/zhaoyul/uix-cljs-skill.git .pi/skills/uix-clojurescript
 ```
 
 ### Manual copy
