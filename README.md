@@ -1,6 +1,6 @@
 # uix-clojurescript skill
 
-A [pi agent](https://github.com/badlogic/pi) skill for writing, reviewing, migrating, and testing UIx ClojureScript code.
+A skill for writing, reviewing, migrating, and testing [UIx](https://github.com/pitch-io/uix) ClojureScript code. Compatible with Pi agent, Claude Code, Codex, Cursor, Gemini CLI, and other [Agent Skills](https://agentskills.io)-compliant coding assistants.
 
 ## What is included
 
@@ -11,14 +11,21 @@ A [pi agent](https://github.com/badlogic/pi) skill for writing, reviewing, migra
 
 ## Install
 
-### Via git clone (pi agent)
+### Via npx skills (recommended)
 
 ```bash
-# Clone into pi's global skills directory
+npx skills@latest add zhaoyul/uix-clojurescript
+```
+
+This installs the skill automatically for Pi, Claude Code, Codex, Cursor, Gemini CLI, and other supported agents.
+
+### Via git clone
+
+```bash
 git clone https://github.com/zhaoyul/uix-clojurescript.git ~/.pi/agent/skills/uix-clojurescript
 ```
 
-Or into your project:
+Or into a project directory:
 
 ```bash
 git clone https://github.com/zhaoyul/uix-clojurescript.git .pi/skills/uix-clojurescript
@@ -32,7 +39,7 @@ cp -R uix-clojurescript ~/.pi/agent/skills/
 
 ## Usage
 
-The skill loads automatically when pi detects tasks involving UIx ClojureScript. You can also force-load it:
+The skill loads automatically when the agent detects tasks involving UIx ClojureScript. You can also force-load it:
 
 ```
 /skill:uix-clojurescript
