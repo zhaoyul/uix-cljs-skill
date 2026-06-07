@@ -1,0 +1,8 @@
+{:deps true
+ :builds
+ {:app {:target :browser
+        :modules {:main {:entries [app.core]
+                         :init-fn app.core/start}}
+        :output-dir "out"
+        :asset-path "/out"
+        :devtools {:preloads [uix.preload]}}}}
